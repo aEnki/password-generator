@@ -1,5 +1,23 @@
 // Assignment code here
 
+//references to elements
+var lengthNum = document.querySelector("#password-length");
+
+
+function generatePassword() {
+  //instantiate the password
+  var password = "";
+  //get the password length
+  var length = lengthNum.value; 
+
+  while (password.length < length)
+  {
+    
+  }
+
+
+  return "new password"+lengthNum.value;
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
